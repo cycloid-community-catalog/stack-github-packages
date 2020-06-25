@@ -1,0 +1,14 @@
+stack_git_branch: master
+
+code_git_repository: git@github.com:my/repository.git
+code_git_branch: master
+code_git_private_key: ((ssh_code.ssh_key))
+
+# location of the pom.xml
+code_build_context: ./
+
+github_registry: https://maven.pkg.github.com/...
+github_username: ((github_registry.username))
+github_password: ((github_registry.password))
+
+openjdk_docker_tag: 8-jre-alpine3.7
