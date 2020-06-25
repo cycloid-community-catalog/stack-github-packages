@@ -24,4 +24,4 @@ run:
       apk add --quiet --no-progress maven
       mvn --version
       cd merged-stack/my-app
-      mvn deploy -Dregistry=${REGISTRY} -Dtoken=${TOKEN}
+      mvn -q deploy -Dregistry=${REGISTRY} -Dtoken=${TOKEN}
