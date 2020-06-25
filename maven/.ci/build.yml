@@ -13,7 +13,7 @@ outputs:
   - name: image
 
 caches:
-  - path: cache
+  - path: /root/.m2/repository
 
 run:
   path: /bin/sh
