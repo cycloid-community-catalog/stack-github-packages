@@ -64,5 +64,5 @@ run:
           </servers>
         </settings>
       EOF
-      cd merged-stack/${BUILD_CONTEXT}
+      cd merged-stack/
       mvn -q deploy
