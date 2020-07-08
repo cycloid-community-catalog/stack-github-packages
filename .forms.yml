@@ -47,7 +47,7 @@ default:
         type: string
         default: "((github_registry.password))"
         required: true
-        key: github_password
+        key: github_token
     Cycloid:
       - name: "Stack branch"
         description: "Branch to use on the public stack Git repository"
