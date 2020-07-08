@@ -3,7 +3,7 @@ version: '2'
 # Configuration of the Cycloid stack
 name: 'Stack Github package'
 canonical: 'stack-github-package'
-status: 'private'
+status: 'public'
 description: |
   Deploy packages to Github
 keywords:
