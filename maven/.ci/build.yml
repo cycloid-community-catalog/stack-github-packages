@@ -65,4 +65,4 @@ run:
         </settings>
       EOF
       cd merged-stack/
-      mvn -q deploy
+      mvn -e deploy
