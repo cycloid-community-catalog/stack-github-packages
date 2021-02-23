@@ -62,5 +62,5 @@ jobs:
         params:
           REGISTRY: ((github_registry))
           USERNAME: ((github_username))
-          TOKEN: ((github_token))
+          TOKEN: ((github_password))
           BUILD_CONTEXT: ((code_build_context))

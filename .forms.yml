@@ -40,18 +40,14 @@ default:
         required: true
         type: string
         key: github_username
+        default: "((github_registry.username))"
       - name: "Github password"
-        description: "the password to use to push the package"
+        description: "the password or token to use to push the package"
         widget: cy_cred
         type: string
         required: true
         key: github_password
-      - name: "Github token"
-        description: "the token used to communicate with Github API"
-        widget: cy_cred
-        type: string
-        required: true
-        key: github_token
+        default: "((github_registry.password))"
     Cycloid:
       - name: "Stack branch"
         description: "Branch to use on the public stack Git repository"

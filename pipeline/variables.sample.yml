@@ -29,7 +29,3 @@ github_username: ((github_registry.username))
 #. github_password(required):
 #+ the password / token to push the package
 github_password: ((github_registry.password))
-
-#. github_token(required):
-#+ the github token used to communicate with Github API
-github_token: ((github_token.api_key)
