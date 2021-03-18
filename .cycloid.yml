@@ -1,7 +1,7 @@
 ---
 version: '2'
 # Configuration of the Cycloid stack
-name: 'Stack Github package'
+name: 'Github Packages'
 canonical: 'stack-github-package'
 status: 'public'
 description: |
